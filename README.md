@@ -1,5 +1,5 @@
 # Go sftp
-SFTP implementation for go, compatible with Encryption Algorithm DSA key length 2048, 3072, 4096
+SFTP Client implementation for go, compatible with Encryption Algorithm DSA key length 2048, 3072, 4096
 # When to use this repo
 By default, this repo is not aiming to replace the built in implementation available in go with the package crypto. 
 This package is intended to add the simple compatibility of the DSA key kength of 2048,3072 and 4096 which the golang crypto package doesn't support by default.
