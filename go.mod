@@ -9,4 +9,4 @@ require (
 	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
 )
 
-replace golang.org/x/crypto => github.com/loadsmart/kamion_go_crypto v0.0.1
+replace golang.org/x/crypto => ./crypto
