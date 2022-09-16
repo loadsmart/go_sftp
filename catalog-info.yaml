@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go_sftp
+  description: SFTP implementation for go, compatible with Encryption Algorithm DSA key length 2048, 3072, 4096
+  annotations:
+    github.com/project-slug: loadsmart/go_sftp
+  tags:
+    - go
+spec:
+  type: other
+  lifecycle: production
+  owner: <CODE-OWNER>
